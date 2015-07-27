@@ -2,9 +2,11 @@
   "name": "gulp-boilerplate",
   "version": "0.0.1",
   "description": "My Gulp Boilerplate",
-  "authors": [
-    "Fernando Moreira <nandomoreira.me@gmail.com>"
-  ],
+  "author": {
+    "name": "Fernando Moreira",
+    "email": "nandomoreira.me@gmail.com",
+    "url": "http://nandomoreira.me/"
+  },
   "license" : "MIT",
   "repository": {
     "type": "git",
