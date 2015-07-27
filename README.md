@@ -1,2 +1,1 @@
-# my-gulp-boilerplate
-My Gulp Boilerplate
+# My Gulp Boilerplate
