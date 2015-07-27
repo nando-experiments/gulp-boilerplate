@@ -1,3 +1,3 @@
-#### My Gulp Boilerplate
+#### Gulp Boilerplate
 
 :smirk:
