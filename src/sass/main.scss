@@ -13,8 +13,15 @@
 // # Compass
 // http://compass-style.org/
 //
-@import
-  "compass/css3",
-  "compass/utilities",
-  "compass/reset"
-;
+// $ sudo gem install sass compass
+//
+
+@import "compass/css3";
+@import "compass/utilities";
+
+@import "variables";
+@import "mixins";
+@import "placeholders";
+@import "normalize";
+@import "globals";
+@import "grid";
