@@ -1,0 +1,28 @@
+{
+  "sass":  "src/sass/",
+  "js":    "src/js/",
+  "img":   "src/images/",
+  "fonts": "src/fonts/",
+  "jade":  "src/jade/",
+  "bower" : "src/bower/",
+  "dest" : {
+    "dist":   "dist/",
+    "assets": "dist/assets/",
+    "css":    "dist/assets/css/",
+    "js":     "dist/assets/js/",
+    "fonts":  "dist/assets/fonts/",
+    "img":    "dist/assets/images/"
+  },
+  "compass": "config.rb",
+  "autoprefixer_browsers": [
+    "ie >= 10",
+    "ie_mob >= 10",
+    "ff >= 30",
+    "chrome >= 34",
+    "safari >= 7",
+    "opera >= 23",
+    "ios >= 7",
+    "android >= 4.4",
+    "bb >= 10"
+  ]
+}

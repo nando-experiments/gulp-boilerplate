@@ -2,11 +2,12 @@
  * gulp fonts
  */
 
-var gulp = require('gulp');
-var $    = require('gulp-load-plugins')();
+var config = require('../config.json');
+var gulp   = require('gulp');
+var $      = require('gulp-load-plugins')();
 
 gulp.task('fonts', function () {
-  return gulp.src(['_src/fonts/**'])
-    .pipe(gulp.dest('dist/fonts'))
-    .pipe($.size({title: 'fonts', gzip: false, showFiles: true}));
+  return gulp.src([config.fonts + '**'])
+    .pipe(gulp.dest(config.dest.fonts))
+    .pipe($.size({title: 'fonts'}));
 })
