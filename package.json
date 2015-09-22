@@ -1,7 +1,7 @@
 {
   "name": "gulp-boilerplate",
-  "version": "0.0.1",
-  "description": "My Gulp Boilerplate",
+  "version": "1.0.0",
+  "description": "Gulp Boilerplate",
   "author": {
     "name": "Fernando Moreira",
     "email": "nandomoreira.me@gmail.com",
